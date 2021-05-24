@@ -1,3 +1,11 @@
+:root {
+  --primary: rgb(167, 54, 54);
+  --secondary: rgb(230, 190, 62); /*I never got around to using the other two colors...feels bad man*/
+  --tertiary:  rgb(47, 150, 209);
+  --light:  rgb(62, 68, 71);
+  --dark: rgb(29, 31, 32);
+}
+
 .logo {
   width: 16rem;
 }
@@ -22,6 +30,8 @@ margin-left: 0.8rem;
   max-width: 17rem;
 }
 
-.navber-nav > li > a.active, .navbar-nav > li > a:focus {
-  border-bottom: 0.18rem solid var
+
+
+.navbar-nav > li > a:hover {
+background-color: var(--primary);
 }
