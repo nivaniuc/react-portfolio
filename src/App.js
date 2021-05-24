@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from './components/Nav'
 import Header from "./components/Header"
 import Projects from "./components/Projects"
+import Contact from "./components/Contact"
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Nav />
       <Header />
       <Projects />
+      <Contact />
     </div>
   );
 }

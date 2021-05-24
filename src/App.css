@@ -32,8 +32,6 @@ margin-left: 0.8rem;
   max-width: 17rem;
 }
 
-
-
 .navbar-nav > li > a:hover {
 background-color: var(--primary);
 }
