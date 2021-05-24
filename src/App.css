@@ -6,6 +6,8 @@
   --dark: rgb(29, 31, 32);
 }
 
+
+/* NAV STYLING */
 .logo {
   width: 16rem;
 }
@@ -34,4 +36,110 @@ margin-left: 0.8rem;
 
 .navbar-nav > li > a:hover {
 background-color: var(--primary);
+}
+
+/* HEADER STYLING */
+
+.header-wrapper {
+  position: relative;
+}
+
+.namebanner {
+  background: var(--primary);
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  min-height: 40vh;
+  padding: 2% 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.namebanner h1 {
+  font-size: 75px;
+}
+
+/* PROJECTS SECTION STYLING */
+
+.projects section {
+  display: flex;
+  flex-flow: column;
+  flex-direction:row;
+  position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects article img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: .8rem;
+  box-shadow: 5px 10px 18px #88888896;
+}
+
+.projects article {
+  position: relative;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  height: auto;
+  border-radius: 4px;
+  background-color: aliceblue;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+/*BOX SECTION STYLING*/
+
+.box-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.singlebox {
+  position: relative;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  height: auto;
+  border-radius: 4px;
+  background-color: aliceblue;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.boximage {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 6px solid #ddd;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+}
+.boxheader {
+  font-size: 20px;
+  font-weight: 333;
+  line-height: 48px;
+}
+/*CONTACT INFORMATION STYLING*/
+.myinfo {
+  text-decoration: none;
+  font-style: normal;
+  display: flex;
+  flex-direction: column
 }

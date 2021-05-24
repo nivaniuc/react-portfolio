@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from './components/Nav'
 import Header from "./components/Header"
+import Projects from "./components/Projects"
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Nav />
       <Header />
+      <Projects />
     </div>
   );
 }
