@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './images/logo.png'
+import resume from './images/resume.pdf'
 
 const Nav = () => {
   return (
@@ -12,16 +13,13 @@ const Nav = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item">
-        <a className="nav-link" href="#">About Me</a>
+        <a className="nav-link" href="#work">My Work</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">My Work</a>
+        <a className="nav-link" href="#contact">Contact</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Contact</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Resume</a>
+        <a className="nav-link" href="./images/resume.pdf">Resume</a>
       </li>
     </ul>
   </div>
